@@ -1,0 +1,60 @@
+::-webkit-input-placeholder {
+	color: #5A6781;
+}
+::-moz-placeholder {
+	color: #5A6781;
+}
+:-ms-input-placeholder {
+	color: #5A6781;
+}
+:-moz-placeholder {
+	color: #5A6781;
+}
+
+:focus {
+	outline: none;
+}
+
+body {
+	font-family: 'Varela Round', 'Roboto', 'Noto Sans TC', sans-serif;
+	padding: 20px;
+	background: #17263F;
+}
+
+#logo {
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	margin: 0 auto 20px;
+}
+
+#logo > img {
+	width: 100%;
+	height: auto;
+}
+
+input, textarea {
+	padding: 10px;
+	margin-bottom: 12px;
+	width: 240px;
+	background: #25344D;
+	color: #E9E9E9;
+	border: none;
+}
+
+textarea {
+	height: 100px;
+	resize: none;
+}
+
+button {
+	background: #f0cf45;
+	color: #1a1a1a;
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+	padding: 6px;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
+}
