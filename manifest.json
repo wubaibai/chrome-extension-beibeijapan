@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+
+	"name": "Cathy Learn Japan",
+	"description": "Quick Add Japan Language Item form Youtube video timestamp",
+	"icons": {
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"version": "1.0",
+
+	// "browser_action": {
+	// 	"default_icon": "icon48.png",
+	// 	"default_popup": "popup.html",
+	// 	"default_title": "Add New Sentence"
+	// },
+	"content_scripts": [
+		{
+			"matches": ["https://www.youtube.com/*"],
+			"css": ["cathy-japan.css"],
+			"js": ["jquery.min.js", "cathy-japan.js"]
+		}
+	],
+	"author":"Cathy Wu, Taiwan.",
+	"permissions": [
+		// "activeTab",
+		"tabs",
+		"https://www.youtube.com/*"
+	]
+}
