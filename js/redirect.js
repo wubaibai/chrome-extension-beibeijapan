@@ -17,7 +17,7 @@ function youtubeParser(urlStr) {
 function goToEditor(url) {
 	var yid = youtubeParser(url);
 	if (yid) {
-		var newURL = "http://localhost:8080/?t=video&vid="+yid;
+		var newURL = "https://wubaibai.github.io/beibeijapan/?t=video&vid="+yid;
 		chrome.tabs.create({ url: newURL }, function(tab) {
 			// Tab opened.
 		});
