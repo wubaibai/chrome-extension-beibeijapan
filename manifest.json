@@ -3,6 +3,7 @@
 	"name": "跟著杯子學日語",
 	"description": "Integration of BeiBeiJapan Site",
 	"icons": {
+		"16": "icon/icon16.png",
 		"48": "icon/icon48.png",
 		"128": "icon/icon128.png"
 	},
