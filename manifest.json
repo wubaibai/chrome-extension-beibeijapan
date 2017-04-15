@@ -14,7 +14,7 @@
 		"default_icon": "icon/favico.png"
 	},
 	"author":"Pei-chen Wu, Taiwan.",
-	"optional_permissions": [
+	"permissions": [
 		"tabs",
 		"https://www.youtube.com/*"
 	]

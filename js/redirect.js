@@ -1,6 +1,6 @@
 chrome.browserAction.onClicked.addListener(function(activeTab){
-	chrome.tabs.getSelected(null, function(tab){
-		goToEditor(tab.url);
+	chrome.tabs.query({active: true, currentWindow: true}, function(tabs){
+		goToEditor(tabs[0].url);
 	});
 });
 
